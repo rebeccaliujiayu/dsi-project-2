@@ -61,6 +61,8 @@ Finally, Model 3 applied a logarithmic transformation to sale price, the depende
 
 ![residual plots](./code/residual_plots.png)
 
+<br>
+
 ### Conclusions and Recommendations
 ---
 The best performing model was Model 3, achieving a test R2 score of 88.74%. Based on analysis of the coefficients, our recommendations for clients seeking to enhance the value of their homes are:
