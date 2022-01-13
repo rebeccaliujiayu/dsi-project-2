@@ -28,17 +28,17 @@ I chose to narrow down to a small number of variables and to simplify many of th
 |**num_half_baths**|The number of half bathrooms in the house, including those in the basement. Half bathrooms are bathrooms that contain a sink and toilet, but no bathing facilities.|
 |**num_kitchens**|The number of kitchens in the house.|
 |**num_fireplaces**|The number of fireplaces in the house.|
-|**has_remodeled**|Binary variable representing whether the house has ever been remodeled.|
-|**has_bsmt**|Binary variable representing whether the house has a finished basement.|
-|**has_unf_bsmt**|Binary variable representing whether the house has an unfinished basement.|
-|**has_garage**|Binary variable representing whether the house has a finished garage.|
-|**has_unf_garage**|Binary variable representing whether the house has an unfinished garage.|
-|**has_porch**|Binary variable representing whether the house has a porch or deck.|
-|**has_fence**|Binary variable representing whether the house has a fence.|
-|**has_pool**|Binary variable representing whether the house has a pool.|
-|**near_road**|Binary variable representing whether the house is adjacent to or within 200' of an arterial or feeder road|
-|**near_rail**|Binary variable representing whether the house is adjacent to or within 200' of a railway station.|
-|**near_pos**|Binary variable representing whether the house is near a positive feature such as a park or greenbelt.|
+|**has_remodeled**|Whether the house has ever been remodeled.|
+|**has_bsmt**|Whether the house has a finished basement.|
+|**has_unf_bsmt**|Whether the house has an unfinished basement.|
+|**has_garage**|Whether the house has a finished garage.|
+|**has_unf_garage**|Whether the house has an unfinished garage.|
+|**has_porch**|Whether the house has a porch or deck.|
+|**has_fence**|Whether the house has a fence.|
+|**has_pool**|Whether the house has a pool.|
+|**near_road**|Whether the house is adjacent to or within 200' of an arterial or feeder road|
+|**near_rail**|Whether the house is adjacent to or within 200' of a railway station.|
+|**near_pos**|Whether the house is near a positive feature such as a park or greenbelt.|
 |**area_(name)**|Dummy variables representing the neighborhood in which the house is located in.|
 
 ### Modelling
