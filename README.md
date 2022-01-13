@@ -57,7 +57,7 @@ Finally, Model 3 applied a logarithmic transformation to sale price, the depende
 |**Best train R2**|82.64%|84.50%|84.75%|
 |**Best test R2**|77.78%|84.75%|88.74%|
 
-![residual plots](../code/residual_plots.png)
+![residual plots](./code/residual_plots.png)
 
 ### Conclusions and Recommendations
 ---
