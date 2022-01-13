@@ -49,7 +49,7 @@ In Model 2, 29 outliers with sales price exceeding 3SD of the mean were dropped.
 
 Finally, Model 3 applied a logarithmic transformation to sale price, the dependent variable, and dropped coefficients that were reduced to zero in the previous lasso regression. These coefficients were: (1) being located in the South & West of Iowa State University, Greens, College Creek, or Veenker, (2) having an unfinished basement, (3) number of floors, (4) having a fence. The best performing model (the ridge regression) achieved an R2 of 88.74% on the test set. The resulting residual  plot no longer demonstrated heteroscedascity or a non-linear trend, indicating a good model fit.
 
-||Model 1 (All Variables)|Model 2 (Dropped Outliers)|Model 3 (Log-transformed)|
+||Model 1 <br>(All Variables)|Model 2 <br>(Dropped Outliers)|Model 3 <br>(Log-transformed)|
 |---|---|---|---|
 |**No penalty**|80.87%|83.07%|84.91%|
 |**Ridge penalty**|80.92%|83.09%|84.93%|
