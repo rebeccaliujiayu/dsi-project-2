@@ -9,8 +9,8 @@ As a property consultancy firm, we aim to help residential home owners estimate 
 ### Contents
 - [Problem Statement](#Problem-Statement)
 - [Data Dictionary](#Data-Dictionary)
-- [Conclusions   and Recommendations](#Conclusions-and-Recommendations)
-- [Rubrics](#Rubrics)
+- [Modelling](#Modelling)
+- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
 ### Data Dictionary
 I chose to narrow down to a small number of variables and to simplify many of the variables in the original dataset to binary variables (e.g. whether the house has a certain feature, such as a basement). This was because our aim is to provide clients with an easy tool that can give them quick estimates of how much their house is worth. As such, a key factor that influenced the selection of variables was whether it would be easy and quick for clients to fill in the fields needed to generate a prediction. The following features were thus chosen for the model:
@@ -57,7 +57,7 @@ Finally, Model 3 applied a logarithmic transformation to sale price, the depende
 |**Best train R2**|82.64%|84.50%|84.75%|
 |**Best test R2**|77.78%|84.75%|88.74%|
 
-![residual plots](../presentation/residual_plots.png)
+![residual plots](./presentation/residual_plots.png)
 
 ### Conclusions and Recommendations
 ---
